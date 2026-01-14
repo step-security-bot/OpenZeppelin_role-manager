@@ -50,3 +50,18 @@ updates:
     commit-message:
       prefix: 'chore(deps): '
     open-pull-requests-limit: 5
+
+  - package-ecosystem: npm
+    directory: /apps/role-manager
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/components
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/hooks
+    schedule:
+      interval: daily
